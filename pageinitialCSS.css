@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+:root{
+    --primary: #212529;
+    --second: #385E72;
+    --tirth: #495057;
+    --forth: #6AABD2;
+    --tirth: #ADB5BD;
+    --sixty: #B7CFDC;
+    --seventy: #DEE2E6;
+    --eighty: #D9E4EC;
+}
+
+body {
+    background: var(--eighty);
+}
+
+.main .back{
+    margin: 20px 40px;
+    font-size: 20px;
+}
+
+.main .text { 
+    margin: 110px 0 0 485px;
+}
+
+.main .as {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .a {
+    margin: 30px 0 0 0;
+    font-size: 30px;
+    display: flex;
+}
+
+.a{
+    padding: 20px 140px;
+    border: 2px solid var(--forth);
+    border-radius: 20px;
+    background-color: var(--forth);
+    color: white;
+}
+
+@media (min-width: 0px) and (max-width: 320px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+        
+    :root{
+        --primary: #212529;
+        --second: #385E72;
+        --tirth: #495057;
+        --forth: #6AABD2;
+        --tirth: #ADB5BD;
+        --sixty: #B7CFDC;
+        --seventy: #DEE2E6;
+        --eighty: #D9E4EC;
+    }
+
+    body {
+        background: var(--eighty);
+    }
+
+    .main .back{
+        margin: 20px 20px;
+        font-size: 15px;
+    }
+    
+    .main .text { 
+        margin: 110px 0 0 20px;
+    }
+    
+    .main .as {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .main .a {
+        margin: 30px 0 0 0;
+        font-size: 20px;
+        display: flex;
+    }
+    
+    .a{
+        padding: 10px 100px;
+        border: 2px solid var(--forth);
+        border-radius: 20px;
+        background-color: var(--forth);
+        color: white;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+        
+    :root{
+        --primary: #212529;
+        --second: #385E72;
+        --tirth: #495057;
+        --forth: #6AABD2;
+        --tirth: #ADB5BD;
+        --sixty: #B7CFDC;
+        --seventy: #DEE2E6;
+        --eighty: #D9E4EC;
+    }
+
+    body {
+        background: var(--eighty);
+    }
+
+    .main .back{
+        margin: 20px 20px;
+        font-size: 15px;
+    }
+    
+    .main .text { 
+        margin: 110px 0 0 20px;
+    }
+    
+    .main .as {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .main .a {
+        margin: 30px 0 0 0;
+        font-size: 20px;
+        display: flex;
+    }
+    
+    .a{
+        padding: 10px 100px;
+        border: 2px solid var(--forth);
+        border-radius: 20px;
+        background-color: var(--forth);
+        color: white;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 487px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+        
+    :root{
+        --primary: #212529;
+        --second: #385E72;
+        --tirth: #495057;
+        --forth: #6AABD2;
+        --tirth: #ADB5BD;
+        --sixty: #B7CFDC;
+        --seventy: #DEE2E6;
+        --eighty: #D9E4EC;
+    }
+
+    body {
+        background: var(--eighty);
+    }
+
+    .main .back{
+        margin: 20px 20px;
+        font-size: 15px;
+    }
+    
+    .main .text { 
+        margin: 110px 0 0 20px;
+    }
+    
+    .main .as {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .main .a {
+        margin: 30px 0 0 0;
+        font-size: 20px;
+        display: flex;
+    }
+    
+    .a{
+        padding: 10px 100px;
+        border: 2px solid var(--forth);
+        border-radius: 20px;
+        background-color: var(--forth);
+        color: white;
+    }
+}
+
+@media (min-width: 487px) and (max-width: 768px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+        
+    :root{
+        --primary: #212529;
+        --second: #385E72;
+        --tirth: #495057;
+        --forth: #6AABD2;
+        --tirth: #ADB5BD;
+        --sixty: #B7CFDC;
+        --seventy: #DEE2E6;
+        --eighty: #D9E4EC;
+    }
+
+    body {
+        background: var(--eighty);
+    }
+
+    .main .back{
+        margin: 20px 20px;
+        font-size: 15px;
+    }
+    
+    .main .text { 
+        margin: 80px 0 0 180px;
+    }
+    
+    .main .as {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .main .a {
+        margin: 30px 0 0 0;
+        font-size: 20px;
+        display: flex;
+    }
+    
+    .a{
+        padding: 20px 150px;
+        border: 2px solid var(--forth);
+        border-radius: 20px;
+        background-color: var(--forth);
+        color: white;
+    }
+}

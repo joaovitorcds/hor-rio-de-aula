@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+:root{
+    --primary: #212529;
+    --second: #385E72;
+    --tirth: #495057;
+    --forth: #6AABD2;
+    --tirth: #ADB5BD;
+    --sixty: #B7CFDC;
+    --seventy: #DEE2E6;
+    --eighty: #D9E4EC;
+}
+
+body {
+    height: 100vh;
+    background: var(--eighty);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.relogio div {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+.relogio span.tempo {
+    font-size: 10px;
+}
+
+.minutos {
+    margin-top: -60px;
+    color: var(--tirth);
+}
+
+.horas {
+    margin-top: -60px;
+    color: var(--second);
+}
+
+.day {
+    top: 330px;
+    position: absolute;
+}
+
+#demo {
+    color: var(--tirth);
+    font-size: 70px;
+}
+
+
+.next {
+    position: absolute;
+    bottom: 70px;
+    border: 2px solid var(--forth);
+    border-radius: 30px;
+    padding: 10px 60px;
+    font-size: 20px;
+    color: var(--second);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.next:hover {
+    background-color: var(--second);
+    color: var(--sixty);
+}
+
+
+
+@media (min-width: 0px) and (max-width: 320px){
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    :root{
+        --primary: #212529;
+        --second: #385E72;
+        --tirth: #495057;
+        --forth: #6AABD2;
+        --tirth: #ADB5BD;
+        --sixty: #B7CFDC;
+        --seventy: #DEE2E6;
+        --eighty: #D9E4EC;
+    }
+
+    body {
+        height: 100vh;
+        background: var(--eighty);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .relogio {
+        margin: 10px 0 0 -20px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .relogio div {
+        margin: 0 0 0 20px;
+        height: 80px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        letter-spacing: 3px;
+    }
+    
+    .relogio span {
+        font-weight: bolder;
+        font-size: 90px;
+    }
+    
+    .relogio span.tempo {
+        font-size: 10px;
+    }
+
+    .minutos {
+        color: var(--forth);
+    }
+    
+    .horas {
+        color: var(--primary);
+
+    }
+    
+    .day {
+        bottom: 110px;
+        left: 55px;
+        position: absolute;
+    }
+    
+    #demo {
+        color: var(--tirth);
+        font-size: 50px;
+    }
+
+    .next {
+        position: absolute;
+        bottom: 70px;
+        border: 2px solid var(--forth);
+        border-radius: 30px;
+        padding: 10px 60px;
+        font-size: 20px;
+        color: var(--second);
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .next:hover {
+        background-color: var(--second);
+        color: var(--sixty);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    :root{
+        --primary: #212529;
+        --second: #385E72;
+        --tirth: #495057;
+        --forth: #6AABD2;
+        --tirth: #ADB5BD;
+        --sixty: #B7CFDC;
+        --seventy: #DEE2E6;
+        --eighty: #D9E4EC;
+    }
+
+    body {
+        height: 100vh;
+        background: var(--eighty);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .relogio {
+        margin: 10px 0 0 -20px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .relogio div {
+        margin: 0 0 0 20px;
+        height: 80px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        letter-spacing: 3px;
+    }
+    
+    .relogio span {
+        font-weight: bolder;
+        font-size: 90px;
+    }
+    
+    .relogio span.tempo {
+        font-size: 10px;
+    }
+
+    .minutos {
+        color: var(--forth);
+    }
+    
+    .horas {
+        color: var(--primary);
+
+    }
+    
+    .day {
+        bottom: 110px;
+        left: 85px;
+        position: absolute;
+    }
+    
+    #demo {
+        color: var(--tirth);
+        font-size: 50px;
+    }
+
+    .next {
+        position: absolute;
+        bottom: 70px;
+        border: 2px solid var(--forth);
+        border-radius: 30px;
+        padding: 10px 60px;
+        font-size: 20px;
+        color: var(--second);
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .next:hover {
+        background-color: var(--second);
+        color: var(--sixty);
+    }
+}
+
+@media (min-width: 375px) and (max-width: 487px){
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    :root{
+        --primary: #212529;
+        --second: #385E72;
+        --tirth: #495057;
+        --forth: #6AABD2;
+        --tirth: #ADB5BD;
+        --sixty: #B7CFDC;
+        --seventy: #DEE2E6;
+        --eighty: #D9E4EC;
+    }
+
+    body {
+        height: 100vh;
+        background: var(--eighty);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .relogio {
+        margin: 10px 0 0 -20px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .relogio div {
+        margin: 0 0 0 20px;
+        height: 80px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        letter-spacing: 3px;
+    }
+    
+    .relogio span {
+        font-weight: bolder;
+        font-size: 90px;
+    }
+    
+    .relogio span.tempo {
+        font-size: 10px;
+    }
+
+    .minutos {
+        color: var(--forth);
+    }
+    
+    .horas {
+        color: var(--primary);
+
+    }
+    
+    .day {
+        bottom: 110px;
+        left: 110px;
+        position: absolute;
+    }
+    
+    #demo {
+        color: var(--tirth);
+        font-size: 50px;
+    }
+
+    .next {
+        position: absolute;
+        bottom: 70px;
+        border: 2px solid var(--forth);
+        border-radius: 30px;
+        padding: 10px 60px;
+        font-size: 20px;
+        color: var(--second);
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .next:hover {
+        background-color: var(--second);
+        color: var(--sixty);
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+        
+    :root{
+        --primary: #212529;
+        --second: #385E72;
+        --tirth: #495057;
+        --forth: #6AABD2;
+        --tirth: #ADB5BD;
+        --sixty: #B7CFDC;
+        --seventy: #DEE2E6;
+        --eighty: #D9E4EC;
+    }
+
+    body {
+        height: 100vh;
+        background: var(--eighty);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .relogio {
+        margin: 10px 0 0 -20px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .relogio div {
+        margin: 0 0 0 20px;
+        height: 80px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        letter-spacing: 3px;
+    }
+    
+    .relogio span {
+        font-weight: bolder;
+        font-size: 90px;
+    }
+    
+    .relogio span.tempo {
+        font-size: 10px;
+    }
+
+    .minutos {
+        color: var(--forth);
+    }
+    
+    .horas {
+        color: var(--primary);
+
+    }
+    
+    .day {
+        bottom: 90px;
+        left: 290px;
+        position: absolute;
+    }
+    
+    #demo {
+        color: var(--tirth);
+        font-size: 50px;
+    }
+
+    .next {
+        position: absolute;
+        bottom: 70px;
+        border: 2px solid var(--forth);
+        border-radius: 30px;
+        padding: 10px 60px;
+        font-size: 20px;
+        color: var(--second);
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    .next:hover {
+        background-color: var(--second);
+        color: var(--sixty);
+    }
+}
